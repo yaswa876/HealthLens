@@ -63,7 +63,7 @@ with st.expander(" Login / Register"):
     tab1, tab2 = st.tabs(["Login", "Register"])
     with tab1:
         username = st.text_input("Username", key="login_user")
-…        new_user = st.text_input("New Username")
+        new_user = st.text_input("New Username")
         new_pass = st.text_input("New Password", type="password")
         if st.button("Register"):
             if register(new_user, new_pass):
