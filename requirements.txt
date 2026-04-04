@@ -3,3 +3,11 @@ torch
 torchvision
 pandas
 Pillow
+
+
+streamlit
+numpy
+pandas
+matplotlib
+pillow
+sqlite3
